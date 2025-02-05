@@ -16,7 +16,7 @@ function theme_styles_and_scripts()
         filemtime(get_template_directory() . '/styles/main.css')
     );
     wp_enqueue_script(
-        'idm250-yl3434-script',
+        'idm250-ss5565-script',
         get_template_directory_uri() . '/asset/scripts/main.js',
         [],
         filemtime(get_template_directory() . '/asset/scripts/main.js'),
