@@ -18,11 +18,10 @@
         <nav>
             <div class="navigation">
                 <div class="logo">
-                    <img src="assets/logo.svg" alt="Logo">
-                    <h1>Sreeja Satish</h1>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo">
                 </div>
-                <div class="nav-menu"> 
-                    <ul>
+                <div class="nav-menu">
+                    <ul class="nav-items">
                         <li><a href="index.php">Work</a></li>
                         <li>✧</li>
                         <li><a href="gallery.php">Gallery</a></li>
