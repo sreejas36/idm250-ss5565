@@ -20,7 +20,6 @@ html {
 }
 
 body {
-    margin: 20px;
     font-family: 'Gayathri', sans-serif;
     background-color: var(--background);
     color: var(--text);
@@ -47,31 +46,34 @@ a:hover {
 .navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Pushes logo left and menu right */
-    width: 100%; /* Ensures the container spans full width */
+    width: 100%;
     padding: 2%;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    flex-shrink: 0; /* Prevents logo from shrinking */
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
+    margin-left: auto; /* Pushes the menu to the right */
 }
 
 .nav-items {
     display: flex;
     list-style: none;
     font-size: x-large;
-
-    li {
-        margin: 0 10px;
-        transition: transform 0.3s ease, background-color 0.3s ease;
-    }
+    padding: 0;
+    margin: 0;
 }
+
+.nav-items li {
+    margin: 0 10px;
+}
+
 
 
 footer{
@@ -84,12 +86,17 @@ footer{
     padding-bottom: 5%;
     margin: 0px;
 
-
     img{
         width: 30px;
         height: 30px;
         padding: 0px 5px;
     }
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer{
@@ -102,4 +109,29 @@ footer{
     color: var(--white);
     font-family: "Outfit";
     text-decoration: none;
+}
+
+
+
+
+
+/* single.php blocks */
+.post-container{
+    margin: 0 10%;
+}
+
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-heading {
+
+}
+
+.wp-block-button_link {
+    color: #312973;
+    border-color: var(--white);
 }
