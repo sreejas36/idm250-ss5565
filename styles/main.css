@@ -167,3 +167,10 @@ img {
         font-size: 60px;
     }
 }
+
+
+/* Page */
+
+.wp-block-column-is-layout-flow {
+    width: 50%;
+}
