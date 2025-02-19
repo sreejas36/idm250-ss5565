@@ -19,7 +19,7 @@
             <div class="navigation">
                 <div class="logo">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo">
-                    <h1>Sreeja Satish</h1>
+                    <!-- <h1>Sreeja Satish</h1> -->
                 </div>
                 <div class="nav-menu">
                     <ul class="nav-items">
