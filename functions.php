@@ -22,6 +22,13 @@ function theme_styles_and_scripts()
     //     filemtime(get_template_directory() . '/asset/scripts/main.js'),
     //     true //Load in the footer
     // );
+
+    wp_enqueue_style(
+        'google-fonts',
+        "https://https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap",
+        [], 
+        filemtime(get_template_directory() . '/styles/main.css')
+    );
 }
 
 add_action('wp_enqueue_scripts', 'theme_styles_and_scripts');

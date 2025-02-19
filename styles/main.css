@@ -1,11 +1,28 @@
+/* @font-face {
+    font-family: 'gayathri';
+    src: url('/fonts/Gayathri/Gayathri-Regular.ttf'), format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('/fonts/Ubuntu/Ubuntu-Regular.ttf'), format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+} */
+
 :root {
     --background: #10082F;
     --text: #FFFFFF;
     --white: #FFFFFF;
     --footer: #312973;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    --gayathri: 'gayathri', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --ubuntu: 'ubuntu', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
 
 
 * {
@@ -20,17 +37,18 @@ html {
 }
 
 body {
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'gayathri', sans-serif;
     background-color: var(--background);
     color: var(--text);
+    /* line-height: 1; */
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 20px 20px 0px 0px;
+h1 {
+    /* line-height: 1; */
+}
+
+p, li  {
+    font-family:'ubuntu', sans-serif;
 }
 
 a {
@@ -43,6 +61,14 @@ a:hover {
     transition: opacity 0.3s;
 }
 
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
 .navigation {
     display: flex;
     align-items: center;
