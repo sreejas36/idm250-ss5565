@@ -17,10 +17,10 @@
     <header>
         <nav>
             <div class="navigation">
-                <div class="logo">
+                <a class="logo" href="index.php">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo">
                     <!-- <h1>Sreeja Satish</h1> -->
-                </div>
+                </a>
                 <div class="nav-menu">
                     <ul class="nav-items">
                         <li><a href="index.php">Work</a></li>

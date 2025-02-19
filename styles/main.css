@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    /* line-height: 1; */
+    font-size: 32px;
 }
 
 p  {
@@ -149,4 +149,21 @@ img {
 .wp-block-button_link {
     color: #312973;
     border-color: var(--white);
+}
+
+
+.post-title{
+
+}
+
+
+/* 404 Error */
+
+.error-message {
+    padding: 2% 0 5% 0;
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+    }
 }
