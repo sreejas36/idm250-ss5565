@@ -23,9 +23,11 @@ html {
 }
 
 body {
-    font-family: 'gayathri', sans-serif;
     background-color: var(--background);
     color: var(--text);
+    font-family: "Gayathri", serif;
+    font-weight: 100;
+    font-style: normal;    
     /* line-height: 1; */
 }
 
@@ -173,4 +175,12 @@ img {
 
 .wp-block-column-is-layout-flow {
     width: 50%;
+}
+
+.wp-block-pullquote blockquote{
+    box-sizing: border-box;
+}
+
+.wp-block-pullquote {
+    box-sizing: border-box;
 }
