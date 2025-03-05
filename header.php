@@ -25,7 +25,14 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo">
                     <!-- <h1>Sreeja Satish</h1> -->
                 </a>
-                <div class="nav-menu">
+
+                <?php 
+                wp_nav_menu([
+                    'theme_location' => 'primary-menu',
+                ]);
+                ?> 
+
+                <!-- <div class="nav-menu">
                     <ul class="nav-items">
                         <li><a href="index.php">Work</a></li>
                         <li>✧</li>
@@ -33,7 +40,7 @@
                         <li>✧</li>
                         <li><a href="about.php">About</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
     </header>
