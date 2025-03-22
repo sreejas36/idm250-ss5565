@@ -21,7 +21,7 @@
     <header>
         <nav>
             <div class="navigation">
-                <a class="logo" href="index.php">
+                <a class="logo" href="http://cms-idm250.local/">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo">
                     <!-- <h1>Sreeja Satish</h1> -->
                 </a>

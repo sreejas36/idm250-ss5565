@@ -1,7 +1,7 @@
 
 <footer>
     <div class="footer-left">
-        <img src="/assets/large-star.png" alt="">
+        <!-- <img src="/assets/large-star.png" alt=""> -->
     </div>
     <div class="footer-content">
         <h1>Ready to Shoot for the Stars?</h1>

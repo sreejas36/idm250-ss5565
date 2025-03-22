@@ -1,5 +1,26 @@
 <?php get_header(); ?>
-<div class="wrapper">
+<!-- 
+    <h1>
+    <?php 
+    echo get_the_title();
+    ?>
+    </h1> -->
+
+    <div>
+        <div class="main-content">
+            <?php 
+            echo get_the_content();
+            ?>
+        </div>
+
+        <div>
+            <?php get_template_part('components/latest-projects'); ?>
+        </div>
+
+    </div>
+    
+<!-- 
+    <div class="wrapper">
     <?php if (have_posts()) : ?>
     <h1><?php the_archive_title(); ?></h1>
 
@@ -10,14 +31,6 @@
         <?php get_template_part('components/blog-card'); ?>
         </div>
 
-        
-    <?php 
-        $categories = get_the_term_list(get_the_ID(), 'project-categories', '', ', ', '');
-        if ($categories) {
-            echo '<p class="project-card__categories">' . $categories . '</p>';
-        } 
-    ?>
-
         <?php endwhile; ?>
     </ul>
 
@@ -26,5 +39,7 @@
     <?php else : ?>
     <p>No posts found.</p>
     <?php endif; ?>
-</div>
+</div> -->
+
+    
 <?php get_footer(); ?>

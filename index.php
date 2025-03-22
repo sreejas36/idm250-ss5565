@@ -6,7 +6,9 @@
 
 
 
-
+<h1>
+    <?php
+</h1>
 
 <?php get_footer(); ?>
 

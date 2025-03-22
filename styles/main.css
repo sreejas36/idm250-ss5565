@@ -76,7 +76,7 @@ nav {
 .nav-menu {
     display: flex;
     align-items: center;
-    margin-left: auto; Pushes the menu to the right
+    margin-left: auto; 
 }
 
 .nav-items {
@@ -163,9 +163,6 @@ img {
     margin-right: auto;
 }
 
-.wp-block-heading {
-
-}
 
 .wp-block-button_link {
     color: #312973;
@@ -202,4 +199,134 @@ img {
 
 .wp-block-pullquote {
     box-sizing: border-box;
+}
+
+
+/* buttons */
+.wp-block-button__link {
+    background-color: var(--background);
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+}
+
+.wp-block-button__link a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    text-align: center;
+}
+
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column 
+
+
+
+
+.main-content {
+    margin: 0 20%;
+}
+
+
+
+.wp-block-heading{
+    margin: 5% 20%;
+}
+
+.wp-block-heading h{
+    margin: 10% 0;
+}
+
+.wp-block-heading h3{
+    margin: 0%;
+}
+
+.wp-block-buttons {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 5% 0;
+}
+/* Project Grid */
+
+.grid grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project-cardtitle{
+    font-size: x-large;
+    margin: 0 0 80px 0;
+}
+.project-cardlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.project-cardimage wp-post-image{
+    width: 50%;
+    height: auto;
+}
+
+img.project-cardimage.wp-post-image {
+    width: 60%;
+    height: auto;
+}
+
+
+.project-cardimage-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.project-cardoverlay {
+    display: flex;
+}
+.project-cardmeta {
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* thumbnail */
+
+.attachment-post-thumbnail{
+    width: 100%;
+    height: auto;
+}
+
+
+/* projects page */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blog-card_title{
+    font-size: x-large;
+    margin: 0 0 80px 0;
+}
+.project-cardlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.project-card__categories a {
+    padding: 50px;
+    
 }
